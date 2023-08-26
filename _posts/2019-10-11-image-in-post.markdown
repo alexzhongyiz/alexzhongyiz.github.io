@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Image in Post"
-date:   2014-12-11
+date:   2019-10-11
 ---
 
 <p class="intro"><span class="dropcap">T</span>he following is a picture of myself while taking a raod trip in Virgina in 2019.</p>
