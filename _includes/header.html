@@ -4,15 +4,17 @@
          <nav class="nav-collapse">
              <ul class="noList">
               {%- for link in site.navigation -%}
-              {%- assign current = nil -%}
-              {%- if page.url contains link.url or forloop.first and page.url == '/' or page.url == 'index.html' -%}
-              {%- assign current = 'current' -%}
-              {%- endif -%}
-
-              {%- if link.url != '/about.md' -%}
-               <li class="element {%- if forloop.first -%}first{%- endif -%} {{ current }} {%- if forloop.last -%}last{%- endif -%}">
-                   <a href="{{ link.url }}">{{ link.title }}</a>
-               </li> 
+                 {%- assign current = nil -%}
+                 {%- if page.url contains link.url or forloop.first and page.url == '/' or page.url == 'index.html' -%}
+                 {%- assign current = 'current' -%}
+                 {%- endif -%}
+   
+                   {%- if link.url != '/about.md' -%}
+                    <li class="element {%- if forloop.first -%}first{%- endif -%} {{ current }} {%- if forloop.last -%}last{%- endif -%}">
+                        <a href="{{ link.url }}">{{ link.title }}</a>
+                    </li> 
+                   {%- endif -%}
+              
                {%- endfor -%}
                <li> <a href="https://github.com/alexzhongyiz" target="_blank">GitHub</a></li>
               
