@@ -6,7 +6,7 @@ paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 Header Option
-header: medium
+header: large
 
 sass:
     style: compressed
