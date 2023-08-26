@@ -5,9 +5,6 @@ url: https://alexzhongyiz.github.io
 #paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
-# Header Option
-# header: large
-
 sass:
     style: compressed
 
