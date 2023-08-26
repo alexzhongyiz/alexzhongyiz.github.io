@@ -2,11 +2,11 @@ title: "Alex Zhang (张中一)"
 description: Personal website and blog.
 
 url: https://alexzhongyiz.github.io
-paginate_path: "blog/page:num/"
+#paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
-Header Option
-header: large
+# Header Option
+# header: large
 
 sass:
     style: compressed
@@ -26,8 +26,6 @@ navigation:
 
 social:
     github: alexzhongyiz
-    #twitter: brianmaierjr
-    #facebook: brianmaierjr
     email: alexzhongyiz@gmail.com
     linkedin: zhongyi-z-9b618582
 
