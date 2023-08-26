@@ -1,7 +1,7 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: Alex Zhongyi Zhang(张中一）
+description: Personal website and blog.
 
-url: https://long-haul.netlify.app
+url: https://alexzhongyiz.github.io
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -25,13 +25,13 @@ navigation:
       url: /contact
 
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
+    github: alexzhongyiz
+    #twitter: brianmaierjr
+    #facebook: brianmaierjr
+    email: alexzhongyiz@gmail.com
+    linkedin: zhongyi-z-9b618582
 
-google_analytics: "UA-58263416-1"
+# google_analytics: "UA-58263416-1"
 
-disqus:
-    shortname: brianmaierjr
+# disqus:
+#     shortname: brianmaierjr
