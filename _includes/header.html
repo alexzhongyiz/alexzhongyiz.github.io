@@ -9,11 +9,11 @@
             {%- assign current = 'current' -%}
             {%- endif -%}
             
-            {%- if link.url != '/about.md' -%}
+            {%- unless link.url == '/about.md' -%}
             <li class="element {%- if forloop.first -%}first{%- endif -%} {{ current }} {%- if forloop.last -%}last{%- endif -%}">
                 <a href="{{ link.url }}">{{ link.title }}</a>
             </li>
-            {%- endif -%}
+            {%- endunless -%}
             
             {%- endfor -%}
         </ul>
